@@ -1,0 +1,15 @@
+.text_wrapper {
+  color: #fff; 
+  background-color: black;
+  font-size: 80px; /*お好きなフォントサイズを選んでください*/
+  font-family: "Times New Roman", Times, serif; /*お好きなフォントを選んでください*/
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  line-height: 1; /*line-heightなくしたほうがカッコ良くなります*/
+}
+
+.text {
+
+  transform: translateY(100px);
+  display: inline-block; 
+  transition: 0.5s;
+}
